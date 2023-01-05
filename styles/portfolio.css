@@ -19,6 +19,13 @@
 }
 
 /* header and navigation styles */
+.header{
+    background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat:no-repeat;
+    background-position: bottom right,left top;
+    margin-top: 0;
+    }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
@@ -35,4 +42,39 @@ nav li{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+/* banner-styles */
+.developer-image{
+    width: 300px;
+    height: 450px;
+    border-radius: 50%;
+}
+.banner{
+    display: flex;
+    margin: 0 200px;
+    /* align-items: center; */
+}
+.banner-title{
+     font-weight: 600;
+    font-size: 45px;
+    color: #474747
+     margin-bottom: 2px;
+}
+.banner-sub-title{
+     font-weight: 700;
+    font-size: 80px;
+     color: #181818;
+    margin-bottom: 20px;
+
+
+}
+.banner-description{
+
+     font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.btn-multiple{
+    display: flex;
 }
